@@ -1,0 +1,26 @@
+# Wholesale Customer Spending Analysis
+
+## Project Overview
+
+This project explores the spending patterns of wholesale customers across six product categories: Fresh, Milk, Grocery, Frozen, Detergents_Paper, and Delicassen.
+
+The analysis aims to understand how customer spending varies across product categories, examine differences between customer channels and regions, and identify unusual spending patterns that may influence statistical summaries.
+
+Using Python and exploratory data analysis techniques, the project investigates data quality, descriptive statistics, distributions, relative variability, and potential outliers. The goal is to develop a clearer understanding of wholesale customer purchasing behaviour and demonstrate a structured, evidence-based approach to data analysis.## Dataset Description
+
+The dataset contains 440 observations and 8 columns, with each observation representing a wholesale customer.
+
+It includes two categorical variables, `Channel` and `Region`, and six numerical variables representing annual spending across different product categories.
+
+### Variables
+
+| Variable | Description |
+|---|---|
+| `Channel` | Customer channel: Horeca or Retail |
+| `Region` | Geographical region associated with the customer |
+| `Fresh` | Annual spending on fresh products |
+| `Milk` | Annual spending on milk products |
+| `Grocery` | Annual spending on grocery products |
+| `Frozen` | Annual spending on frozen products |
+| `Detergents_Paper` | Annual spending on detergents and paper products |
+| `Delicassen` | Annual spending on delicatessen products |

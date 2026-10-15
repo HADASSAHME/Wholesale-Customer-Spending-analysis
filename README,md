@@ -24,3 +24,36 @@ It includes two categorical variables, `Channel` and `Region`, and six numerical
 | `Frozen` | Annual spending on frozen products |
 | `Detergents_Paper` | Annual spending on detergents and paper products |
 | `Delicassen` | Annual spending on delicatessen products |
+
+## Tools and Technologies
+
+- **Python** — Programming language used for the analysis.
+- **Pandas** — Data manipulation, data quality checks, and descriptive statistics.
+- **NumPy** — Numerical operations and statistical calculations.
+- **Matplotlib** — Data visualisation and distribution exploration.
+- **Google Colab** — Cloud-based notebook environment used to conduct the analysis.
+- **GitHub** — Version control and project documentation.
+
+## Methods Applied So Far
+
+- Data inspection and structural assessment.
+- Missing-value and duplicate checks.
+- Descriptive statistical analysis.
+- Comparison of means, medians, and standard deviations.
+- Distribution analysis using histograms.
+- Coefficient of variation (CV) to compare relative variability across product categories.
+- Interquartile range (IQR) method to identify potential outliers.
+- Comparison of original and filtered statistics to investigate the influence of potential outliers.
+
+## Preliminary Findings
+
+The initial exploratory data analysis has produced the following observations:
+
+- **Data quality:** The dataset contains 440 observations and 8 columns. Initial checks found no missing values or duplicate rows.
+- **Spending distributions:** Initial descriptive statistics and histogram analysis suggest that spending distributions are positively skewed, with some customers spending substantially more than others.
+- **Variability across categories:** The coefficient of variation (CV) indicates that relative spending variability differs across product categories. Delicassen has the highest CV among the six categories examined, while Fresh has the lowest.
+- **Potential outliers:** The Interquartile Range (IQR) method identified 28 potential upper-end outliers in Milk and 27 in Delicassen.
+- **Influence of potential outliers:** Excluding the 27 potential upper-end outliers from Delicassen reduced its mean spending from approximately 1,524.87 to 1,092.06 and its median from 965.50 to 838.00.
+
+These findings are preliminary. Further analysis will investigate spending differences across customer channels and geographical regions, explore the influence of unusual observations, and develop a more complete understanding of customer spending patterns.
+

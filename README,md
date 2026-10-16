@@ -57,3 +57,21 @@ The initial exploratory data analysis has produced the following observations:
 
 These findings are preliminary. Further analysis will investigate spending differences across customer channels and geographical regions, explore the influence of unusual observations, and develop a more complete understanding of customer spending patterns.
 
+
+## Project Status
+
+**Status: In Progress**
+
+The initial data inspection, descriptive statistical analysis, variability comparison, and preliminary outlier investigation have been completed. Further analysis is ongoing.
+
+## Next Steps
+
+- Complete the investigation of how potential outliers influence relative variability in product-category spending.
+- Compare spending patterns across customer channels and geographical regions.
+- Explore relationships between the six product-category spending variables.
+- Create additional visualisations to communicate key findings.
+- Summarise the results and develop evidence-based conclusions about wholesale customer spending patterns.
+
+## Project Environment
+
+The analysis is conducted in Google Colab using Python. The notebook is maintained in this GitHub repository as the project develops.
